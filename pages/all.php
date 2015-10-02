@@ -34,8 +34,8 @@ if ($entities) {
 	$body .= "<table " . elgg_format_attributes($attributes) . ">";
 	$body .= "<thead><tr>";
 	$body .= "<th>" . elgg_echo("title") . "</th>";
-	$body .= "<th class='center'>" . elgg_echo("edit") . "</th>";
-	$body .= "<th class='center'>" . elgg_echo("delete") . "</th>";
+	$body .= "<th class='center'>" . elgg_echo("edit") . "&nbsp;</th>";
+	$body .= "<th class='center'>&nbsp;" . elgg_echo("delete") . "</th>";
 	$body .= "</tr></thead>";
 
 	$ordered_entities = [];
